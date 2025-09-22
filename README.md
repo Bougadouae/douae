@@ -1,4 +1,4 @@
-# Curso de Machine Learning
+# Curso de Ubunto
 
 Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
 
@@ -21,5 +21,5 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
 
 ---
 
-© 2025 Mireia Consarnau
+© 2025 Douae Bougaidan
 
