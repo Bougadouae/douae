@@ -45,6 +45,9 @@ voy a la configuracion de la maquina virtual , en sistema , activo la EFI :
 
 Con el espacio libre que queda en el disco duro despues de la instalacion de ubuntu , añado otra patricion para el windows
 <img width="677" height="527" alt="image" src="https://github.com/user-attchments/assets/1ba2e88e-91c0-4982-bbf8-a365e4d080fa" />
+Instalación de Windows:
+<img width="683" height="515" alt="image" src="https://github.com/user-attachments/assets/8d7bc93a-7ee9-4259-8770-da6603aeb221" />
+
 ## Punts de restauració.
 ## Configuració de la xarxa.
 ## Comandes generals i instal·lacions.
