@@ -44,7 +44,9 @@ voy a la configuracion de la maquina virtual , en sistema , activo la EFI :
 <img width="880" height="585" alt="image" src="https://github.com/user-attachments/assets/47b58c7b-627b-478b-90cb-7a2b591f819c" />
 
 Con el espacio libre que queda en el disco duro despues de la instalacion de ubuntu , añado otra patricion para el windows
-<img width="677" height="527" alt="image" src="https://github.com/user-attchments/assets/1ba2e88e-91c0-4982-bbf8-a365e4d080fa" />
+<img width="806" height="607" alt="Captura de pantalla de 2025-10-21 13-36-50" src="https://github.com/user-attachments/assets/03de31ec-8df2-4058-9b88-a168ae5e805c" />
+aunque parece un pequeño error abajo , elimine la patricion creada de windows y la volvi a crear y me funcionó.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 Instalación de Windows:
 <img width="683" height="515" alt="image" src="https://github.com/user-attachments/assets/8d7bc93a-7ee9-4259-8770-da6603aeb221" />
 
