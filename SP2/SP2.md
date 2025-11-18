@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
+
 <h1>Sistemas de fitxers  i patricions</h1>
 
 <p>
@@ -85,5 +84,3 @@ ubuntu ext4</p>
 __________________________________________________
 <h1>Usuarios y permisos :</h1>
 
-
-</html>
