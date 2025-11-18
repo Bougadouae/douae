@@ -1,37 +1,40 @@
 
 <h1>Sistemas de fitxers  i patricions</h1>
 
-<p>
+<div>
   <i> <b>Definicions:</b> </i>
-<i>- Fragmentació interna</i>
-Es cuán los blocs son mas grans ...i se aprofita del disc
+<ul><li><i>- Fragmentació interna:</i>
+Es cuán los blocs son mas grans ...i se aprofita del disc</li> 
 
-<i>-Fragmentació externa</i>
-Es cuán un archiu en blocs consecutius de la memoris i el seu accesos son mas lents i per tant baixa el rendiment
-</p>
-------------------------------------------------------------------------------------------
+<li><i>-Fragmentació externa:</i>
+Es cuán un archiu en blocs consecutius de la memoris i el seu accesos son mas lents i per tant baixa el rendiment</li></ul>
+</div>
+
+<div>
  <i> <b>Tipo de formateig </b> </i>
   <ul><li>-Baix nivell
 Si que borra fitxers , sistema de fitxers , i intenta arreglar sectors defectuosos pero necesitem programes especifics , no es podem feu con el sistema opertaiu </li><li>-Mig nivell
 format lent , si troba sistema defectuosos intenta marcarlos pero no los repara</li>
   <li>-Alt nivel :format rapid , no as borrar el archou no mes es borra el sistema de fitxers , sectors defectusos los eleminan</li></ul>
+</div>
 
---------------------------------------------------------------------------------------------
 
-gestio de particions
--gparted
--comandes
---gestio de procesos
---gestio d'usuaris i grups i permisos
---copies de seguretat i automatizació de tasques
---Quotes d'usuari
+<h2>Gestió de particions</h2>
+<ul>
+  <li>Gparted</li>
+    <li>Comandes</li>
+    <li>Gestió de procesos</li>
+  <li>Gestió d'usuaris i grups i permisos</li>
+  <li>Copies de seguretat i automatizació de tasques</li>
+<li>Quotes d'usuari</li>
+</ul>
 
 ---------------------------------------------------------------------------------------------------
-<h2>disco 10Gb :</h2>
+<h2>Disco 10Gb :</h2>
 <img width="826" height="530" alt="image" src="https://github.com/user-attachments/assets/b14c5e39-82f1-420a-b589-8c8774d43d80" />
 
-<h2>mida de sector:</h2> 
-<p>- mida sector: unitat minima fisica on se guarden los dades en un disco : por defecte : 512 bytes no la podem modificar</p>
+<h2>Mida de sector:</h2> 
+<p>Definició: unitat minima fisica on se guarden los dades en un disco : por defecte : 512 bytes no la podem modificar.</p>
 <img width="823" height="588" alt="image" src="https://github.com/user-attachments/assets/c02a27bb-0ee5-4b93-a92c-4baaaaf8dc44" />
 
 
