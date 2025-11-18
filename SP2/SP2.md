@@ -1,19 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
 <h1>Sistemas de fitxers  i patricions</h1>
 
 <p>
-  Definicions:
-  - fragmentacio interna
-fragmentacio interna : cuan los blocs son mas grans ...i se aprofita del disc
+  <i> <b>Definicions:</b> </i>
+<i>- Fragmentació interna</i>
+Es cuán los blocs son mas grans ...i se aprofita del disc
 
-- .... externa
-es cuan un archiu en blocs consecutius de la memoris i el seu accesos son mas lents i per tant baixa el rendiment</p>
+<i>-Fragmentació externa</i>
+Es cuán un archiu en blocs consecutius de la memoris i el seu accesos son mas lents i per tant baixa el rendiment
+</p>
 ------------------------------------------------------------------------------------------
-<p>tipo de formateig
--baix nivell
-si que borra fitxers , sistema de fitxers , i intenta arreglar sectors defectuosos pero necesitem programes especifics , no es podem feu con el sistema opertaiu 
--mig nivell
-format lent , si troba sistema defectuosos intenta marcarlos pero no los repara
--alt nivel :format rapid , no as borrar el archou no mes es borra el sistema de fitxers , sectors defectusos los eleminan</p>
+ <i> <b>Tipo de formateig </b> </i>
+  <ul><li>-Baix nivell
+Si que borra fitxers , sistema de fitxers , i intenta arreglar sectors defectuosos pero necesitem programes especifics , no es podem feu con el sistema opertaiu </li><li>-Mig nivell
+format lent , si troba sistema defectuosos intenta marcarlos pero no los repara</li>
+  <li>-Alt nivel :format rapid , no as borrar el archou no mes es borra el sistema de fitxers , sectors defectusos los eleminan</li></ul>
+
 --------------------------------------------------------------------------------------------
 
 gestio de particions
@@ -83,3 +86,4 @@ __________________________________________________
 <h1>Usuarios y permisos :</h1>
 
 
+</html>
