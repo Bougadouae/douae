@@ -212,4 +212,148 @@ Finalmente, el **umask** es una variable de entorno que determina los permisos p
 Funciona restando valor a los permisos totales (666 para archivos, 777 para directorios). Por ejemplo, un umask de `0022` hace que los archivos nazcan con `644` (se quita el permiso de escritura al grupo y a otros).
 <img width="538" height="125" alt="image" src="https://github.com/user-attachments/assets/b96958eb-9f7a-4bbe-ba79-e9f2a5f2b6b4" />
 
+<div class="footer-signature">
+    Entrega realizada por: <span>Douae Bougaidan</span> 💻✨
+</div>
 
+
+<style>
+    /* --- CONFIGURACIÓN GENERAL --- */
+    body {
+        font-family: 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif;
+        /* Fondo oscuro azulado (tipo IDE moderno) */
+        background-color: #1e1e2e; 
+        /* Patrón de cuadrícula "Tech" sutil */
+        background-image: 
+            linear-gradient(rgba(137, 180, 250, 0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(137, 180, 250, 0.05) 1px, transparent 1px);
+        background-size: 30px 30px; /* Tamaño de la cuadrícula */
+        color: #cdd6f4; /* Texto blanco suave, no quema la vista */
+        line-height: 1.8; /* Mucho espacio entre líneas (ordenado) */
+        margin: 0;
+        padding: 40px;
+    }
+
+    /* --- CONTENEDOR PRINCIPAL (Para centrar todo) --- */
+    /* Si no usaste un div principal, el body lo manejará, 
+       pero esto ayuda a que no se estire demasiado en pantallas grandes */
+    body > div, body > main, article {
+        max-width: 900px;
+        margin: 0 auto; /* Centrado */
+        background-color: rgba(30, 30, 46, 0.8); /* Fondo semi-transparente */
+        backdrop-filter: blur(5px); /* Efecto cristal */
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra elegante */
+        border: 1px solid rgba(137, 180, 250, 0.1); /* Borde sutil */
+    }
+
+    /* --- TÍTULOS --- */
+    h1 {
+        text-align: center;
+        font-size: 2.8em;
+        margin-bottom: 40px;
+        /* Gradiente de color Lavanda a Cian */
+        background: linear-gradient(90deg, #f5c2e7, #89b4fa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        color: #f5c2e7; /* Rosa pastel suave */
+        border-bottom: 2px solid #45475a;
+        padding-bottom: 10px;
+        margin-top: 50px;
+        font-size: 1.8em;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Pequeño detalle tech antes del H2 */
+    h2::before {
+        content: ">";
+        color: #89b4fa;
+        margin-right: 10px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: #89b4fa; /* Azul pastel */
+        margin-top: 30px;
+        font-weight: 600;
+    }
+
+    /* --- TEXTO SIN ETIQUETA Y PÁRRAFOS --- */
+    p, div {
+        margin-bottom: 20px;
+        text-align: justify; /* Texto justificado para que se vea cuadrado y ordenado */
+    }
+
+    /* --- LISTAS (UL / LI) --- */
+    ul {
+        list-style: none; /* Quitamos los puntos feos por defecto */
+        padding-left: 20px;
+        background-color: #262638; /* Fondo un poco más claro */
+        padding: 20px 30px;
+        border-radius: 12px;
+        border-left: 4px solid #f5c2e7; /* Línea decorativa rosa */
+    }
+
+    li {
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    li::before {
+        content: "•";
+        color: #89b4fa; /* Color del punto */
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+    }
+
+    /* --- IMÁGENES --- */
+    img {
+        max-width: 100%; /* Que no se salgan de la pantalla */
+        display: block;
+        margin: 30px auto; /* Centradas */
+        border-radius: 12px; /* Bordes redondeados */
+        box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Sombra flotante */
+        border: 2px solid #313244;
+        transition: transform 0.3s ease; /* Animación suave */
+    }
+
+    img:hover {
+        transform: scale(1.02); /* Pequeño zoom al pasar el ratón */
+        border-color: #89b4fa;
+    }
+
+    /* --- CÓDIGO / COMANDOS (Si hay alguno suelto) --- */
+    code, pre {
+        font-family: 'Consolas', 'Fira Code', monospace;
+        background-color: #11111b;
+        color: #a6e3a1; /* Verde terminal */
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+      .footer-signature {
+        margin-top: 60px;          /* Espacio grande arriba */
+        padding-top: 20px;         /* Espacio entre la línea y el nombre */
+        border-top: 1px solid rgba(137, 180, 250, 0.3); /* Línea divisoria sutil */
+        text-align: center;        /* Centrado */
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #cdd6f4;            /* Color base claro */
+    }
+
+    .footer-signature span {
+        background: linear-gradient(90deg, #f5c2e7, #89b4fa); /* Gradiente Rosa-Azul */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; /* Texto con color degradado */
+    }
+</style>
