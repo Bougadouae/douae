@@ -3,19 +3,19 @@
 
 <div>
   <i> <b>Definicions:</b> </i>
-<ul><li><i>- Fragmentació interna:</i>
+<ul><li><i>Fragmentació interna:</i>
 Es cuán los blocs son mas grans ...i se aprofita del disc</li> 
 
-<li><i>-Fragmentació externa:</i>
+<li><i>Fragmentació externa:</i>
 Es cuán un archiu en blocs consecutius de la memoris i el seu accesos son mas lents i per tant baixa el rendiment</li></ul>
 </div>
 
 <div>
  <i> <b>Tipo de formateig </b> </i>
-  <ul><li>-Baix nivell
-Si que borra fitxers , sistema de fitxers , i intenta arreglar sectors defectuosos pero necesitem programes especifics , no es podem feu con el sistema opertaiu </li><li>-Mig nivell
+  <ul><li>Baix nivell
+Si que borra fitxers , sistema de fitxers , i intenta arreglar sectors defectuosos pero necesitem programes especifics , no es podem feu con el sistema opertaiu </li><li>Mig nivell
 format lent , si troba sistema defectuosos intenta marcarlos pero no los repara</li>
-  <li>-Alt nivel :format rapid , no as borrar el archou no mes es borra el sistema de fitxers , sectors defectusos los eleminan</li></ul>
+  <li>Alt nivel :format rapid , no as borrar el archou no mes es borra el sistema de fitxers , sectors defectusos los eleminan</li></ul>
 </div>
 
 
@@ -85,7 +85,7 @@ ubuntu ext4</p>
 <img width="835" height="686" alt="image" src="https://github.com/user-attachments/assets/19d904ca-3354-41bc-a720-e5447696ac32" />
 
 <h1>Usuarios y permisos :</h1>
-
+<div>
 Cuando ejecutamos un programa en nuestro sistema operativo, este se convierte en un **proceso**. El sistema operativo es el encargado de administrar estos procesos, asignándoles recursos como tiempo de CPU y memoria RAM.
 
 Cada proceso cuenta con características que lo identifican:
@@ -100,30 +100,32 @@ Para administrar los procesos desde la terminal, disponemos de varios comandos:
 <li>"kill" : Finalizació; Se utiliza para enviar señales a los procesos, generalmente para detenerlos o forzar su cierre (requiere el PID). </li>
 <li>"nice" / "renice" : Modifican la prioridad de un proceso para que el sistema le dé más o menos preferencia de CPU. </li>
 <li>"systemctl" : Es la herramienta principal para gestionar servicios (daemons) que corren en segundo plano (arrancar, parar, reiniciar). </li>
-</ul>
+</ul> </div>
 <h1> Gestión de usuario, gruposy permisos :</h1>
-En Linux, la administración de usuarios es crítica para la seguridad. Toda la información referente a usuarios y grupos se almacena en archivos de texto plano que podemos consultar.
-  
+<div>En Linux, la administración de usuarios es crítica para la seguridad. Toda la información referente a usuarios y grupos se almacena en archivos de texto plano que podemos consultar.
+   </div>
 <h2> Interfaz alternativa </h2>
-  
+  <div>
 Aunque la administración de servidores Linux se realiza principalmente mediante comandos, existen herramientas gráficas para facilitar esta tarea en entornos de escritorio. Una de las más clásicas es `gnome-system-tools`.
 
 Como esta herramienta no siempre viene instalada por defecto en las versiones modernas de Ubuntu, primero debemos instalarla: `sudo apt install gnome-system-tools`
 Una vez instalada, podemos ejecutarla para ver una interfaz amigable donde añadir o modificar usuarioscon el comando : 'users-admin'
+</div>
 <img width="729" height="543" alt="image" src="https://github.com/user-attachments/assets/eb8e0f34-0440-42fe-b319-936d9a273d8a" />
 
   
 <h2>Archivos principales del sistema</h2>
-
+<div>
 El archivo **/etc/passwd** contiene el listado de todos los usuarios del sistema, indicando su UID, GID y su directorio personal (home).
-
+</div>
 <h3>Visualización del contenido donde se definen los usuarios:</h3>
 <img width="657" height="142" alt="image" src="https://github.com/user-attachments/assets/2eea0d0c-73f3-44f3-b473-fd2fc2243129" />
 <img width="757" height="710" alt="image" src="https://github.com/user-attachments/assets/1d1157b5-a88e-4fd9-9d58-9ca241650872" /> 
 <h3>Listado de los grupos configurados en el sistema : </h3>
 
 <img width="623" height="781" alt="image" src="https://github.com/user-attachments/assets/b851acc6-bdf6-489d-8b40-72249f48c2d8" />
-El archivo '/etc/group' define los grupos existentes en el sistema y qué usuarios pertenecen a cada uno.Por motivos de seguridad, las contraseñas no son visibles en el archivo general. Se almacenan cifradas en el archivo /etc/shadow, el cual solo puede ser leído por el usuario root. Aquí también se configuran las políticas de caducidad de las claves.
+<div> El archivo '/etc/group' define los grupos existentes en el sistema y qué usuarios pertenecen a cada uno.Por motivos de seguridad, las contraseñas no son visibles en el archivo general. Se almacenan cifradas en el archivo /etc/shadow, el cual solo puede ser leído por el usuario root. Aquí también se configuran las políticas de caducidad de las claves.
+</div>
 
 <h3>Contenido de las contraseñas encriptadas con privilegios root </h3>
 <img width="621" height="339" alt="image" src="https://github.com/user-attachments/assets/8d464740-e89f-4004-97c9-ed2dd9809b28" />
@@ -131,10 +133,11 @@ El archivo '/etc/group' define los grupos existentes en el sistema y qué usuari
 
 <h2>Comandos para la Gestión de Usuarios</h2>
 <h3>Creación de un usuario utilizando el asistente interactivo. </h3>
-
+<div>
 Existen dos herramientas principales para dar de alta usuarios:
 1.  adduser: Es un asistente interactivo ;script de Perl; que solicita los datos paso a paso y crea automáticamente el directorio personal. Es más amigable.
 2.  useradd: Es el comando nativo ;binario; más rápido y manual, ideal para scripts, pero no configura tantas opciones por defecto.
+</div>
 
 Ejemplo de creación con 'adduser':
 <img width="794" height="592" alt="image" src="https://github.com/user-attachments/assets/f07fd4be-bbb7-4d9f-9e77-ee4e49fe369f" />
@@ -142,6 +145,7 @@ Una vez creado, podemos verificar que su directorio /home se ha generado correct
 <img width="599" height="80" alt="image" src="https://github.com/user-attachments/assets/d1a2af45-4ef8-4bf6-9cd3-885eb1fc91c3" />
 
 <h3>Gestión del estado de la cuenta: bloqueo o eliminación: </h3>
+
 También podemos bloquear temporalmente el acceso de un usuario (sin eliminarlo) usando `passwd -l`, o borrarlo definitivamente con `deluser`.
 <img width="787" height="237" alt="image" src="https://github.com/user-attachments/assets/b96f3bfa-3ca9-49fb-9f54-06b6792fc77d" />
 
